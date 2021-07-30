@@ -1,0 +1,275 @@
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+.img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.logo{
+    display: flex;
+    padding: 10px;
+    align-self: center;
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #000;
+}
+
+ul li{
+    list-style: none;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    padding: 0 15px;
+}
+
+.menu a:hover{
+    border-bottom: 2px solid  limegreen;
+    color: limegreen;
+}
+
+.menu a{
+    line-height: 50px;
+    color: black;
+    font-weight: 500;
+}
+
+.topnav{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.topheader{
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+.name{
+    padding-left: 10px;
+    align-self: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}
+
+.social__a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    border: 1px solid rgb(209, 209, 209);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: black;
+
+}
+.social__a:hover{
+    color: limegreen;
+    border: 1px solid limegreen;
+}
+
+
+/* Fin Header */
+
+/* Hero */
+
+.hero{
+    /* min-width: 984px; */
+    width: 100%;
+    padding: 0 2% 0 5%;
+}
+
+.hero__divisor{
+    min-height: calc(100vh - 83px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero__container-left{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.hero__container-right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    font-family:'Montserrat', sans-serif; ;
+}
+
+
+.hero__textcontainer{
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero__title{
+    font-size: 50px;
+    margin: 0;
+}
+
+.hero__subtitle{
+    color: gray;
+    margin: 0;
+}
+
+.flag-size{
+    width: 50px;
+}
+
+.coder-size{
+    width: 300px;
+}
+
+
+
+/* Fin hero */
+
+/* Habilidades */
+
+.section{
+    background-color: rgb(250, 248, 248);
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__icon-container{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.hero__icons{
+    width: 150px;
+    height: 180px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__icon-title{
+    color: gray;
+    display: none;
+}
+
+.hero__icons:hover{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: all .3s;
+    background-color: white;
+    
+    
+}
+
+.hero__icons:hover > .hero__icon-title{
+    display: block;
+}
+
+.icon-resize{
+    font-size: 70px;
+}
+
+.fa-html5{
+    color: #e34c26
+}
+
+.fa-css3-alt{
+    color: #264de4;
+}
+
+.fa-js-square{
+    color: #f0db4f;
+}
+
+.fa-react{
+    color: #61dbfb;
+}
+
+/* About Me */
+
+.skills{
+    background: #fff;
+
+}
+
+.aboutme__textcontainer{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text__p{
+    color: rgb(94, 94, 94);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+@media (max-width:860px){
+    .hero__container-right{
+        /* display: none; */
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero__container-left{
+        width: 100%;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .coder-size{
+        width: 250px;
+    }
+
+    .hero__icon-title{
+        /* color: gray; */
+        display: block;
+    }
+    
+    .hero__icons{
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        background-color: white;
+        
+        
+    }
+
+}
+

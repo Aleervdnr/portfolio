@@ -312,6 +312,7 @@ ul li{
     font-size: 14px;
     margin: 0;
     padding: 10px;
+    text-align: center;
 }
 
 @media (max-width:860px){

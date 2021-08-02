@@ -252,6 +252,7 @@ ul li{
     color: rgb(94, 94, 94);
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    line-height: 22px;
 }
 
 @media (max-width:860px){

@@ -135,8 +135,24 @@ ul li{
     margin: 0;
 }
 
-.flag-size{
+.hero__p{
+    margin: 0;
+}
+
+.flag-container{
+    display: flex;
+    align-items: center;
+}
+
+.flag-desktop{
     width: 50px;
+    margin-left: 5px;
+}
+
+.flag-mobile{
+    display: none;
+    width: 25px;
+    margin-left: 5px;
 }
 
 .coder-size{
@@ -260,15 +276,28 @@ ul li{
     .name{
         font-size: 10px;
     }
-    .hero{
-        margin-top: 50px;
-    }
 
     .hero__container-right{
         /* display: none; */
         width: 100%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .hero__title{
+        font-size: 35px;
+    }
+
+    .hero__subtitle{
+        font-size: 20px;
+    }
+
+    .flag-desktop{
+        display: none;
+    }
+    
+    .flag-mobile{
+        display: block;
     }
 
     .hero__container-left{

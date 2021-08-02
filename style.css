@@ -201,6 +201,10 @@ ul li{
     font-size: 70px;
 }
 
+.img-resize{
+    width: 50%;
+}
+
 .fa-html5{
     color: #e34c26
 }
@@ -213,14 +217,26 @@ ul li{
     color: #f0db4f;
 }
 
-.fa-react{
-    color: #61dbfb;
+.fa-git-alt {
+    color: #f34f29;
+  }
+
+.fa-bootstrap{
+  color: #563d7c;
+}
+
+.fa-sass{
+  color: #cc6699;
 }
 
 /* About Me */
 
 .skills{
     background: #fff;
+
+}
+
+.skills2{
 
 }
 
@@ -239,6 +255,11 @@ ul li{
 }
 
 @media (max-width:860px){
+
+    .hero{
+        margin-top: 50px;
+    }
+
     .hero__container-right{
         /* display: none; */
         width: 100%;

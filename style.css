@@ -136,13 +136,16 @@ ul li{
 }
 
 .hero__p{
+    display: inline-block;
     margin: 0;
 }
 
 .flag-container{
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
 }
+
+
 
 .flag-desktop{
     width: 50px;
@@ -200,9 +203,6 @@ ul li{
     display: none;
 }
 
-.hero__p{
-    display: flex;
-}
 
 .hero__icons:hover{
     border-radius: 10px;
@@ -337,7 +337,7 @@ ul li{
     }
     
     .flag-mobile{
-        display: block;
+        display: inline-block;
     }
 
     .hero__container-left{

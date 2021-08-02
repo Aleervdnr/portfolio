@@ -284,14 +284,6 @@ ul li{
         margin-right: auto;
     }
 
-    .hero__title{
-        font-size: 35px;
-    }
-
-    .hero__subtitle{
-        font-size: 20px;
-    }
-
     .flag-desktop{
         display: none;
     }

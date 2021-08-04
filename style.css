@@ -43,6 +43,8 @@ ul li{
     line-height: 50px;
     color: black;
     font-weight: 500;
+    transition-property: color border;
+    transition-duration: .5s;
 }
 
 .topnav{
@@ -79,6 +81,8 @@ ul li{
     height: 35px;
     border-radius: 50%;
     color: black;
+    transition-property: color border;
+    transition-duration: .5s;
 
 }
 .social__a:hover{

@@ -1,3 +1,6 @@
+*{
+    scroll-behavior: smooth;
+}
 a{
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -143,13 +146,6 @@ ul li{
     display: inline-block;
     margin: 0;
 }
-
-.flag-container{
-    /* display: flex;
-    align-items: center; */
-}
-
-
 
 .flag-desktop{
     width: 50px;

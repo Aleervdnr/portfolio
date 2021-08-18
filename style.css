@@ -199,8 +199,8 @@ ul li{
 }
 
 .hero__icon-title{
-    color: gray;
-    display: none;
+    color: white;
+    /* display: none; */
 }
 
 
@@ -214,7 +214,12 @@ ul li{
 }
 
 .hero__icons:hover > .hero__icon-title{
-    display: block;
+    color: gray;
+    transition: all .5s;
+}
+
+.gray-bg{
+    color: rgb(250, 248, 248);
 }
 
 .icon-resize{

@@ -6,6 +6,10 @@ a{
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    text-align: justify;
+}
+
 /* Header */
 .img{
     height: 50px;

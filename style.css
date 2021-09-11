@@ -6,10 +6,6 @@ a{
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
-    text-align: justify;
-}
-
 /* Header */
 .img{
     height: 50px;
@@ -290,6 +286,7 @@ ul li{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     line-height: 22px;
+    text-align: justify;
 }
 
 .card{

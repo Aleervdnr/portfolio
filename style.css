@@ -286,7 +286,7 @@ ul li{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     line-height: 22px;
-    text-align: justify;
+    /* text-align: center; */
 }
 
 .card{

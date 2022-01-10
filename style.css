@@ -23,6 +23,7 @@ a{
     display: flex;
     justify-content: space-evenly;
     border-bottom: 1px solid #000;
+    z-index: 1000000;
 }
 
 ul li{
@@ -59,6 +60,7 @@ ul li{
     background-color: #fff;
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 
 .name{
@@ -327,6 +329,14 @@ ul li{
     margin: 0;
     padding: 10px;
     text-align: center;
+}
+
+.animate__animated{
+    z-index: 10;
+}
+
+.animate__fadeIn{
+    --animate-duration : 2.5s;
 }
 
 @media (max-width:860px){
